@@ -28,7 +28,7 @@ export default function Contact() {
                     type="email"
                     id="email"
                     className="w-full px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg text-white focus:outline-none focus:border-purple-500"
-                    placeholder="your@email.com"
+                    placeholder="thanksagbeble@email.com"
                   />
                 </div>
                 
@@ -69,9 +69,9 @@ export default function Contact() {
                   <div>
                     <h3 className="text-white font-semibold mb-2">Address</h3>
                     <p className="text-gray-400">
-                      Nexus Tower<br />
+                      Bwari<br />
                       123 Business District<br />
-                      New York, NY 10001
+                      Muhammed Store, Kubwa FCT, Nigeria.
                     </p>
                   </div>
                 </div>
@@ -88,7 +88,7 @@ export default function Contact() {
                   <Mail className="text-purple-500 mt-1" size={24} />
                   <div>
                     <h3 className="text-white font-semibold mb-2">Email</h3>
-                    <p className="text-gray-400">contact@nexusgroup.com</p>
+                    <p className="text-gray-400">contact@thanksgroup.com</p>
                   </div>
                 </div>
                 
