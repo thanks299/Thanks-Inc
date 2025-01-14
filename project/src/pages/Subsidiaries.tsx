@@ -4,7 +4,7 @@ import { ArrowRight } from 'lucide-react';
 export default function Subsidiaries() {
   const companies = [
     {
-      name: "Nexus Foundation",
+      name: "Thanks Foundation",
       description: "Driving positive change through sustainable development initiatives, community empowerment, and environmental conservation projects worldwide.",
       image: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80",
       achievements: [
@@ -14,7 +14,7 @@ export default function Subsidiaries() {
       ]
     },
     {
-      name: "Nexus Photography",
+      name: "Studio Thanks",
       description: "A leading creative agency specializing in commercial photography, documentary projects, and visual storytelling for global brands.",
       image: "https://images.unsplash.com/photo-1452587925148-ce544e77e70d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80",
       achievements: [
@@ -24,7 +24,7 @@ export default function Subsidiaries() {
       ]
     },
     {
-      name: "Nexus Investments",
+      name: "Thanks Investments Plc.",
       description: "Strategic investment firm focusing on emerging technologies, sustainable ventures, and high-growth opportunities across diverse sectors.",
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80",
       achievements: [

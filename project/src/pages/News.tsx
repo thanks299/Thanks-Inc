@@ -4,7 +4,7 @@ import { Calendar, Tag } from 'lucide-react';
 export default function News() {
   const news = [
     {
-      title: "Nexus Group Announces Major Sustainable Energy Initiative",
+      title: "Thanks Group Inc. Announces Major Sustainable Energy Initiative",
       date: "March 15, 2024",
       category: "Press Release",
       image: "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80",
@@ -18,14 +18,14 @@ export default function News() {
       excerpt: "Strong performance across all business units leads to record-breaking first quarter results..."
     },
     {
-      title: "Nexus Photography Wins International Award",
+      title: "Studio Thanks Wins International Award",
       date: "March 5, 2024",
       category: "Company News",
       image: "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80",
       excerpt: "Our photography division receives prestigious recognition for its groundbreaking work in documentary storytelling..."
     },
     {
-      title: "Nexus Foundation Launches Education Initiative",
+      title: "Thanks Foundation Launches Education Initiative",
       date: "March 1, 2024",
       category: "Foundation",
       image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80",

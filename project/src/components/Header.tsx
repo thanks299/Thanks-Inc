@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Building2, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 
 export default function Header() {
@@ -45,11 +45,16 @@ export default function Header() {
       <header className={`fixed w-full top-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-black/95 shadow-lg' : 'bg-black/50'}`}>
         <div className="max-w-7xl mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
-            <Link to="/" className="flex items-center space-x-2 hover:text-gray-300 transition-colors">
-              <Building2 size={32} className="text-white" />
-              <span className="text-xl font-bold text-white">NEXUS GROUP</span>
-            </Link>
-            
+            {/* Logo Section */}
+            <div className="flex items-center space-x-2">
+              <img 
+                src="/image/logo.jpg" 
+                alt="Company Logo" 
+                className="h-12 w-auto object-contain"
+              />
+            </div>
+
+            {/* Desktop Navigation */}
             <nav className="hidden md:flex space-x-8">
               {navLinks.map((link) => (
                 <Link
@@ -63,7 +68,8 @@ export default function Header() {
                 </Link>
               ))}
             </nav>
-            
+
+            {/* Mobile Menu Button */}
             <button 
               className="md:hidden text-white z-50 relative"
               onClick={() => setIsMenuOpen(!isMenuOpen)}

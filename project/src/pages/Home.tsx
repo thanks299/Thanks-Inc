@@ -14,7 +14,7 @@ export default function Home() {
       >
         <div className="max-w-7xl mx-auto px-6 text-white">
           <h1 className="text-5xl md:text-7xl font-bold mb-4 animate-slideUp">
-            Shaping Tomorrow's World
+            SHAPING THE WORLD
           </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-2xl animate-slideUp animation-delay-200">
             A global leader in innovation, investment, and sustainable development
@@ -35,19 +35,19 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                title: "Nexus Foundation",
+                title: "Thanks Foundation",
                 description: "Empowering communities through sustainable development",
                 image: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
                 link: "/subsidiaries"
               },
               {
-                title: "Nexus Photography",
+                title: "Sudio Thanks",
                 description: "Capturing moments that tell powerful stories",
                 image: "https://images.unsplash.com/photo-1452587925148-ce544e77e70d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
                 link: "/subsidiaries"
               },
               {
-                title: "Nexus Investments",
+                title: "Thanks Investments Plc.",
                 description: "Building wealth through strategic investments",
                 image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
                 link: "/subsidiaries"
@@ -76,7 +76,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {[
               {
-                title: "Nexus Group Announces New Sustainable Initiative",
+                title: "Thanks Group Inc. Announces New Sustainable Initiative",
                 date: "March 15, 2024",
                 category: "Press Release",
                 link: "/news"
@@ -85,6 +85,24 @@ export default function Home() {
                 title: "Q1 2024 Financial Results Exceed Expectations",
                 date: "March 10, 2024",
                 category: "Financial News",
+                link: "/news"
+              },
+              {
+                title: "Sudio Thanks Wins Prestigious Photography Award",
+                date: "March 5, 2024",
+                category: "Company News",
+                link: "/news"
+              },
+              {
+                title: "Thanks Investments Plc. Acquires Leading Tech Startup",
+                date: "February 28, 2024",
+                category: "Investment News",
+                link: "/news"
+              },
+              {
+                title: "Thanks Foundation Partners With UNICEF For Clean Water Project",
+                date: "February 20, 2024",
+                category: "Community News",
                 link: "/news"
               }
             ].map((news, index) => (

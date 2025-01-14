@@ -3,7 +3,7 @@ import React from 'react';
 export default function About() {
   const executives = [
     {
-      name: "Sarah Chen",
+      name: "Sarah Thanks",
       title: "Chief Executive Officer",
       image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
     },
@@ -23,13 +23,13 @@ export default function About() {
     <main className="pt-16">
       <section className="py-20 bg-black">
         <div className="max-w-7xl mx-auto px-6">
-          <h1 className="text-4xl font-bold text-white mb-8">About Nexus Group</h1>
+          <h1 className="text-4xl font-bold text-white mb-8">Thanks Group Inc.</h1>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20">
             <div>
               <h2 className="text-2xl font-bold text-white mb-4">Our Story</h2>
               <p className="text-gray-400 mb-4">
-                Founded in 1970, Nexus Group has grown from a small investment firm into a global conglomerate spanning multiple industries. Our journey has been marked by strategic acquisitions, innovative ventures, and a commitment to sustainable growth.
+                Founded in 1970, Thanks Group Inc. has grown from a small investment firm into a global conglomerate spanning multiple industries. Our journey has been marked by strategic acquisitions, innovative ventures, and a commitment to sustainable growth.
               </p>
               <p className="text-gray-400">
                 Today, we operate across three core sectors: sustainable development through our Foundation, creative industries via our Photography division, and financial services through our Investment arm.
