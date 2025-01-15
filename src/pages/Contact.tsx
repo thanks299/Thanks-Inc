@@ -28,7 +28,7 @@ export default function Contact() {
                     type="email"
                     id="email"
                     className="w-full px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg text-white focus:outline-none focus:border-purple-500"
-                    placeholder="thanksagbeble@email.com"
+                    placeholder="Your Email"
                   />
                 </div>
                 
