@@ -88,7 +88,7 @@ export default function Home() {
                 link: "/news"
               },
               {
-                title: "Sudio Thanks Wins Prestigious Photography Award",
+                title: "Studio Thanks Wins Prestigious Photography Award",
                 date: "March 5, 2024",
                 category: "Company News",
                 link: "/news"
