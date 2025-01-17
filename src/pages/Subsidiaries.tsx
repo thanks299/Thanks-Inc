@@ -12,7 +12,7 @@ export default function Subsidiaries() {
       <section className="py-20 bg-black"> 
         <div className="max-w-7xl mx-auto px-6"> 
           <h1 className="text-4xl font-bold text-white mb-12">Our Companies</h1> 
-          <div className="space-y-20"> 
+          <div className="space-y-17"> 
             {companies.map((company, index) => ( 
               <div key={index} className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center"> 
                 <div className={`${index % 2 === 1 ? 'md:order-2' : ''}`}> 

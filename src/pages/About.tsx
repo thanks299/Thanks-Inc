@@ -9,10 +9,10 @@ export default function About() {
 
   return (
     <main className="pt-12">
-      <section className="py-12 bg-black">
+      <section className="py-10 bg-black">
         <div className="max-w-7xl mx-auto px-6">
           <h1 className="text-4xl font-bold text-white mb-4">Thanks Group Inc.</h1>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center mb-12">
             <div>
               <h2 className="text-2xl font-bold text-white mb-3">Our Story</h2>
               <p className="text-gray-400 mb-3">Founded in 1970, Thanks Group Inc. has grown from a small investment firm into a global conglomerate spanning multiple industries. Our journey has been marked by strategic acquisitions, innovative ventures, and a commitment to sustainable growth.</p>
@@ -21,12 +21,12 @@ export default function About() {
             <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80" alt="Nexus Group headquarters" className="rounded-lg shadow-lg" />
           </div>
           <div className="mb-12">
-            <h2 className="text-2xl font-bold text-white mb-6">Our Leadership</h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <h2 className="text-2xl font-bold text-white mb-6">OUR LEADERSHIP</h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               {executives.map((exec, index) => (
                 <div key={index} className="bg-gray-900 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all">
                   <img src={exec.image} alt={exec.name} className="w-full h-64 object-cover" />
-                  <div className="p-4">
+                  <div className="p-2">
                     <h3 className="text-xl font-bold text-white mb-2">{exec.name}</h3>
                     <p className="text-gray-400">{exec.title}</p>
                   </div>
@@ -36,9 +36,9 @@ export default function About() {
           </div>
           <div className="text-center">
             <h2 className="text-2xl font-bold text-white mb-3">Our Values</h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-3 mt-6">
               {[{ title: "Innovation", description: "Pushing boundaries and embracing new technologies" }, { title: "Sustainability", description: "Committed to environmental and social responsibility" }, { title: "Excellence", description: "Delivering exceptional value in everything we do" }].map((value, index) => (
-                <div key={index} className="bg-gray-900 p-4 rounded-lg">
+                <div key={index} className="bg-gray-900 p-3 rounded-lg">
                   <h3 className="text-xl font-bold text-white mb-2">{value.title}</h3>
                   <p className="text-gray-400">{value.description}</p>
                 </div>

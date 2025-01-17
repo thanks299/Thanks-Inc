@@ -22,8 +22,12 @@ export default function Home() {
 
       <section className="py-20 bg-gray-900">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-3xl font-bold text-white mb-12 text-center animate-fadeIn">OUR COMPANY</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <h2 className="text-3xl font-bold text-white mb-12 text-center animate-fadeIn relative">
+          <span className="absolute inset-0 bg-gradient-to-r from-green-500 to-pink-500 opacity-40 z-10"></span>
+          OUR COMPANY
+        </h2>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-7">
             {[{
               title: "Thanks Foundation",
               description: "Empowering communities through sustainable development",
@@ -52,10 +56,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-20 bg-black">
-        <div className="max-w-7xl mx-auto px-6">
+      <section className="py-19 bg-black">
+        <div className="max-w-7xl mx-auto px-5">
           <h2 className="text-3xl font-bold text-white mb-12 text-center animate-fadeIn">Latest Updates</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-7">
             {[{
               title: "Thanks Group Inc. Announces New Sustainable Initiative",
               date: "March 15, 2024",
@@ -83,7 +87,7 @@ export default function Home() {
               link: "/news"
             }].map((news, index) => (
               <Link to={news.link} key={index}>
-                <div className="border border-gray-800 p-6 rounded-lg hover:bg-gray-900 transition-all duration-300 animate-fadeIn animation-delay-600 cursor-pointer">
+                <div className="border border-gray-800 p-5 rounded-lg hover:bg-gray-900 transition-all duration-300 animate-fadeIn animation-delay-600 cursor-pointer">
                   <span className="text-purple-500 text-sm">{news.category}</span>
                   <h3 className="text-xl font-bold text-white mt-2 mb-4">{news.title}</h3>
                   <p className="text-gray-400">{news.date}</p>

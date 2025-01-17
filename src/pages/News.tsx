@@ -10,10 +10,10 @@ export default function News() {
   ]; 
   return ( 
     <main className="pt-16"> 
-      <section className="py-20 bg-black"> 
+      <section className="py-15 bg-black"> 
         <div className="max-w-7xl mx-auto px-6"> 
           <h1 className="text-4xl font-bold text-white mb-12">Latest News</h1> 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8"> 
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5"> 
             {news.map((item, index) => ( 
               <article key={index} className="bg-gray-900 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all"> 
                 <img src={item.image} alt={item.title} className="w-full h-64 object-cover" /> 

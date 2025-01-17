@@ -11,13 +11,13 @@ export default function Contact() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
               <h2 className="text-xl font-bold text-white mb-4">Get in Touch</h2>
-              <form className="space-y-4">
+              <form className="space-y-2">
                 <div>
                   <label htmlFor="name" className="block text-white mb-1">Name</label>
                   <input
                     type="text"
                     id="name"
-                    className="w-full px-3 py-2 bg-gray-900 border border-gray-800 rounded-lg text-white focus:outline-none focus:border-purple-500"
+                    className="w-full px-1 py-2 bg-gray-900 border border-gray-800 rounded-lg text-white focus:outline-none focus:border-purple-500"
                     placeholder="Your name"
                   />
                 </div>
@@ -27,7 +27,7 @@ export default function Contact() {
                   <input
                     type="email"
                     id="email"
-                    className="w-full px-3 py-2 bg-gray-900 border border-gray-800 rounded-lg text-white focus:outline-none focus:border-purple-500"
+                    className="w-full px-2 py-1 bg-gray-900 border border-gray-800 rounded-lg text-white focus:outline-none focus:border-purple-500"
                     placeholder="Your Email"
                   />
                 </div>
@@ -37,7 +37,7 @@ export default function Contact() {
                   <input
                     type="text"
                     id="subject"
-                    className="w-full px-3 py-2 bg-gray-900 border border-gray-800 rounded-lg text-white focus:outline-none focus:border-purple-500"
+                    className="w-full px-2 py-1 bg-gray-900 border border-gray-800 rounded-lg text-white focus:outline-none focus:border-purple-500"
                     placeholder="How can we help?"
                   />
                 </div>
@@ -47,7 +47,7 @@ export default function Contact() {
                   <textarea
                     id="message"
                     rows={4}
-                    className="w-full px-3 py-2 bg-gray-900 border border-gray-800 rounded-lg text-white focus:outline-none focus:border-purple-500"
+                    className="w-full px-2 py-1 bg-gray-900 border border-gray-800 rounded-lg text-white focus:outline-none focus:border-purple-500"
                     placeholder="Your message..."
                   ></textarea>
                 </div>
@@ -63,8 +63,8 @@ export default function Contact() {
 
             <div>
               <h2 className="text-xl font-bold text-white mb-4">Contact Information</h2>
-              <div className="space-y-4">
-                <div className="flex items-start space-x-3">
+              <div className="space-y-2">
+                <div className="flex items-start space-x-2">
                   <MapPin className="text-purple-500 mt-1" size={20} />
                   <div>
                     <h3 className="text-white font-semibold mb-1">Address</h3>
@@ -76,7 +76,7 @@ export default function Contact() {
                   </div>
                 </div>
 
-                <div className="flex items-start space-x-3">
+                <div className="flex items-start space-x-2">
                   <Phone className="text-purple-500 mt-1" size={20} />
                   <div>
                     <h3 className="text-white font-semibold mb-1">Phone</h3>
@@ -84,7 +84,7 @@ export default function Contact() {
                   </div>
                 </div>
 
-                <div className="flex items-start space-x-3">
+                <div className="flex items-start space-x-2">
                   <Mail className="text-purple-500 mt-1" size={20} />
                   <div>
                     <h3 className="text-white font-semibold mb-1">Email</h3>
@@ -92,7 +92,7 @@ export default function Contact() {
                   </div>
                 </div>
 
-                <div className="flex items-start space-x-3">
+                <div className="flex items-start space-x-2">
                   <Clock className="text-purple-500 mt-1" size={20} />
                   <div>
                     <h3 className="text-white font-semibold mb-1">Business Hours</h3>
@@ -104,10 +104,10 @@ export default function Contact() {
                 </div>
               </div>
 
-              <div className="mt-6 p-4 bg-gray-900 rounded-lg">
+              <div className="mt-6 p-2 bg-gray-900 rounded-lg">
                 <h3 className="text-white font-semibold mb-2">Connect With Us</h3>
                 <p className="text-gray-400 text-sm">
-                  Follow us on social media for the latest updates, news, and insights from Nexus Group.
+                  Follow us on social media for the latest updates, news, and insights from Thanks Group Inc.
                 </p>
               </div>
             </div>
